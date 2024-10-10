@@ -91,7 +91,7 @@ html, body { min-height: 100%; }
     } 
     else if (rando > 0.2 && rando <= 0.3)
     {
-      image.src = "{{site.baseurl}}/images/sticker2.png";
+      image.src = "{{site.baseurl}}/images/sticker.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A sticker!";
       textbox.style.display="block";
