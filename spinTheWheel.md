@@ -78,7 +78,7 @@ html, body { min-height: 100%; }
     setTimeout(function() {
     if (rando > 0 && rando <= 0.1)
     {
-      image.src = "{{site.baseurl}}/images/notepad2.png";
+      image.src = "{{site.baseurl}}/images/notepad.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A notepad!";
       textbox.style.display="block";
