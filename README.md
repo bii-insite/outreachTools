@@ -9,6 +9,7 @@ spinTheWheel.md is a markdown file - it accepts HTML as well as shortcuts that m
 
 ## Modifying probabilities, images
 
-## Resources
+## Resources for debugging, learning more
 1. chatGPT
 2. W3 schools
+3. console.log() / chrome developer tools
