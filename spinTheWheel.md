@@ -83,6 +83,7 @@ section {
     image.style.animationDuration = "2s";
     var rando;
     rando = Math.random();
+    console.log(rando);
     setTimeout(function() {
     if (rando > 0 && rando <= 0.5)
     {
