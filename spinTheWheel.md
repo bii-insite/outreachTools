@@ -84,49 +84,49 @@ section {
     var rando;
     rando = Math.random();
     setTimeout(function() {
-    if (rando > 0 && rando <= 0.1428)
+    if (rando > 0 && rando <= 0.5)
     {
       image.src = "{{site.baseurl}}/images/notepad.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A notepad!";
       textbox.style.display="block";
     } 
-    else if (rando > 0.1428 && rando <= 0.1428*2)
+    else if (rando > 0.5 && rando <= 0.58333)
     {
       image.src = "{{site.baseurl}}/images/lanyard.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A lanyard!";
       textbox.style.display="block";
     } 
-    else if (rando > 0.1428*2 && rando <= 0.1428*3)
+    else if (rando > 0.58333 && rando <= 0.66667)
     {
       image.src = "{{site.baseurl}}/images/sticker.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A sticker!";
       textbox.style.display="block";
     } 
-    else if (rando > 0.1428*3 && rando <= 0.1428*4)
+    else if (rando > 0.6667 && rando <= 0.73)
     {
       image.src = "{{site.baseurl}}/images/notebook.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A notebook!";
       textbox.style.display="block";
     } 
-    else if (rando > 0.1428*4 && rando <= 0.1428*5)
+    else if (rando > 0.73 && rando <= 0.8)
     {
       image.src = "{{site.baseurl}}/images/waterbottle.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A water bottle!";
       textbox.style.display="block";
     } 
-    else if (rando > 0.1428*5 && rando <= 0.1428*6)
+    else if (rando > 0.88 && rando <= 0.95)
     {
       image.src = "{{site.baseurl}}/images/straw.png";
       image.style.animationDuration = "0s";
       text.innerHTML = "A straw!";
       textbox.style.display="block";
     } 
-    else if (rando > 0.1428*6 && rando <= 1)
+    else if (rando > 0.95 && rando <= 1)
     {
       image.src = "{{site.baseurl}}/images/bar.png";
       image.style.animationDuration = "0s";
